@@ -1,0 +1,34 @@
+﻿
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <title>Login</title>
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container m-4">
+        <div class="card mx-auto" style="width:500px">
+            <div class="card-header">
+                Login
+            </div>
+            <div class="card-body">
+                <form action="" method="post">
+                    <div class="form-group">
+                        <label asp-for="Username">Username</label>
+                        <input type="text" name="Username" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Password">Password</label>
+                        <input type="password" name="Password" class="form-control"/>
+                    </div>
+                    <br />
+                    <input type="submit" value="Submit" class="btn btn-primary btn-warning"/>
+                    <br />
+                    <a class="link-secondary" href="#">Register</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
